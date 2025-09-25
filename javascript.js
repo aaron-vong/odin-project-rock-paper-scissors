@@ -56,16 +56,17 @@ function playGame() {
         return; 
     }
 
-    playRound(getHumanChoice(), getComputerChoice());
+    playRound(humanChoice, getComputerChoice());
     }
 
-    if(humanScore > computerScore)
-    {
-        alert("You beat the Computer " + humanScore + "-" + computerScore + "!")
+    if (humanScore > computerScore) {
+    alert("You beat the Computer " + humanScore + "-" + computerScore + "!");
     }
-    else if(computerScore > humanScore)
-    {
-        alert("You lost to the Computer " + computerScore + "-" + humanScore + "!")
+    else if (computerScore > humanScore) {
+    alert("You lost to the Computer " + computerScore + "-" + humanScore + "!");
+    }
+    else {
+    alert("It's a tie! " + humanScore + "-" + computerScore + "!");
     }
 
 }
