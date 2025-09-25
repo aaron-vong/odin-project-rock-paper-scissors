@@ -1,3 +1,3 @@
 # Project: Rock Paper Scissors
 
-In this project, we will be creating a game from scratch in Javascript.
+In this project, we will be creating a rock paper scissors game from scratch using Javascript.
